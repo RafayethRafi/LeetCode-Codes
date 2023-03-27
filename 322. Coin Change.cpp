@@ -1,4 +1,6 @@
-
+class Solution {
+public:
+    
 int dp[10010];
 
 int func(int amount , vector<int>& coins)
@@ -21,3 +23,4 @@ int coinChange(vector<int>& coins, int amount) {
 
     return ans == INT_MAX ? -1 : ans; 
 }
+};
